@@ -1,0 +1,17 @@
+{
+  "name": "jj",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  },
+  "workspaces": ["packages/*"],
+  "version": "0.0.1",
+  "description": "用户行为分析工具库",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "lerna exec --concurrency 1 'yarn build'"
+  },
+  "author": "",
+  "license": "MIT"
+}
